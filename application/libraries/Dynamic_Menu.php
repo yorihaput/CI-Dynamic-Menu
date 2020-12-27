@@ -37,20 +37,20 @@ class Dynamic_Menu {
         $this->db_function = $this->ci->config->item('db_function');
         $this->session_level_name = $this->ci->config->item('session_level_name');
 
-        $this->load_config($this->template_name);
+        $this->set_config($this->template_name);
     }
 
     // --------------------------------------------------------------------
 
     /**
-    * Load_Config
+    * Set_Config
     *
     * @access	public
     * @param	string $config
     * @return	void
     */	
 
-    function load_config($config){
+    function set_config($config){
         
         $this->db_menu_type = $this->ci->config->item('db_menu_type', $config);
         $this->menu_icon_class = $this->ci->config->item('menu_icon_class', $config);
