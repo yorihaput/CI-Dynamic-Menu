@@ -20,7 +20,7 @@ class Dynamic_Menu {
 	* Dynamic Menu Default Template Name
 	*
     */
-    protected $template_name = 'default';
+    protected $template_name = 'cidm_default';
 
     /**
 	* Constructor

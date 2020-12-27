@@ -33,5 +33,5 @@ $config['session_level_name'] = 'users_level';
 ```
 If you want to make a different menu type template change this code on every template configuration : 
 ```php
-$config['default']['db_menu_type'] = 'sidebar_menu';
+$config['cidm_default']['db_menu_type'] = 'sidebar_menu';
 ```
